@@ -27,13 +27,13 @@ Then you can choose from a few options below:
 ### 1. As a pip package (if just for inference)
 
 ```bash
-pip install git+https://github.com/codehiggs/Synth.git
+pip install git+https://github.com/jalexiscv/Synth.git
 ```
 
 ### 2. Local editable (if also do training, finetuning)
 
 ```bash
-git clone https://github.com/codehiggs/Synth.git
+git clone https://github.com/jalexiscv/Synth.git
 cd F5-TTS
 # git submodule update --init --recursive  # (optional, if need bigvgan)
 pip install -e .
